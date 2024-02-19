@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('heart_background.jpg'); /* Replace 'heart_background.jpg' with your actual image file */
+    background-repeat: repeat; /* Repeat the background image */
+    background-color: #f0f0f0; /* Fallback background color */
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    color: #fff;
+    background-color: #FFC0CB; /* Light pink */
+    border-radius: 20px;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  button {
+    padding: 15px 30px; /* Increased padding for bigger buttons */
+    font-size: 20px; /* Increased font size for bigger buttons */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: transform 0.2s ease;
+  }
+  
+  #si-btn {
+    background-color: #FFC0CB; /* Light pink */
+    color: #fff; /* White text */
+    border-radius: 20px;
+  }
+  
+  #no-btn {
+    background-color: #E91E63; /* Darker pink */
+    color: #fff;
+    border-radius: 20px;
+  }
+  
+  #no-btn.moved {
+    position: absolute;
+  }
+  
+  .moved-top-left {
+    top: 20px;
+    left: 20px;
+  }
+  
+  .moved-top-right {
+    top: 20px;
+    right: 20px;
+  }
+  
+  .moved-bottom-left {
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .moved-bottom-right {
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .moved-top {
+    top: 20px;
+    left: calc(50% - 50px);
+  }
+  
+  .moved-bottom {
+    bottom: 20px;
+    left: calc(50% - 50px);
+  }
+  
+  .moved-left {
+    top: calc(50% - 20px);
+    left: 20px;
+  }
+  
+  .moved-right {
+    top: calc(50% - 20px);
+    right: 20px;
+  }
+  

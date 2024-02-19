@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('heart_background.jpg'); /* Replace 'heart_background.jpg' with your actual image file */
+    background-repeat: repeat; /* Repeat the background image */
+    background-color: #f0f0f0; /* Fallback background color */
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px; /* Add padding to create white space */
+    background-color: #e98787; /* Purple background color */
+  }
+  
+  .otter-image {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    background-color: #fff; /* White background color for the otter image */
+    border-radius: 100%;
+  }
+  
+  .abachito-text {
+    color: #FFC0CB; /* Light pink */
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  

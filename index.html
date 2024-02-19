@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vol ser la meva nòvia?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Vols ser la meva nòvia?</h1>
+    <button id="si-btn" onclick="showOtter()">Si :)</button>
+    <button id="no-btn" onclick="moveNo()">No :(</button>
+  </div>
+
+  <script>
+    function showOtter() {
+      window.location.href = "happy_otter.html";
+    }
+
+    function moveNo() {
+      var noButton = document.getElementById("no-btn");
+      var positions = ["moved-top-left", "moved-top-right", "moved-bottom-left", "moved-bottom-right", "moved-top", "moved-bottom", "moved-left", "moved-right"];
+      var randomPosition = positions[Math.floor(Math.random() * positions.length)];
+      noButton.className = "moved " + randomPosition;
+    }
+  </script>
+</body>
+</html>
+
